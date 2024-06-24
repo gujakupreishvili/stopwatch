@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.conant{
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number{
+  text-align: center;
+  align-items: center;
+}
+.hour{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.click{
+  width: 70px;
+  height: 30px;
+  background-color: green;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.click:hover{
+  background-color: rgb(106, 195, 106);
+  transition: 0.2s;
+}
